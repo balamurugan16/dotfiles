@@ -1,0 +1,117 @@
+{
+  "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.tabSize": 2,
+    "editor.fontSize": 14,
+    "emmet.includeLanguages": {
+          "javascript": "javascriptreact",
+          "plaintext": "pug",
+      },
+    "python.languageServer": "Default",
+    "python.pythonPath": "/bin/python3",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.fontFamily": "Fira Code iScript",
+    "terminal.integrated.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+    "[typescriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+          {
+            "scope": "comment",
+            "settings": {
+              "fontStyle": "italic"
+            }
+          }
+        ]
+      },
+      "editor.fontWeight": "200",
+      "css.lint.unknownAtRules": "ignore",
+      "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+      },
+      "explorer.confirmDelete": false,
+      "[git-commit]": {
+
+        "editor.rulers": [
+          72
+        ],
+        "workbench.editor.restoreViewState": false
+      },
+      "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb",
+        "git-rebase-todo": "gitlens.rebase"
+      },
+  "todo-tree.tree.showScanModeButton": false,
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "prettier.htmlWhitespaceSensitivity": "strict",
+  "prettier.trailingComma": "all",
+  "prettier.requireConfig": true,
+  "prettier.useTabs": true,
+  "editor.defaultFormatter": "vscode.markdown-language-features",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "kite.showWelcomeNotificationOnStartup": false,
+  "python.autoComplete.addBrackets": true,
+  "python.defaultInterpreterPath": "C:\\Users\\Lenovo\\AppData\\Local\\Microsoft\\WindowsApps\\python3.9.exe",
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "bracketPairColorizer.depreciation-notice": false,
+  "[python]": {
+  },
+  "workbench.colorCustomizations": {
+    "[SynthWave '84]": {
+      "tab.activeBorder": "#fff"
+    }
+  },
+  "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -javaagent:\"c:\\Users\\Lenovo\\.vscode\\extensions\\gabrielbb.vscode-lombok-1.0.1\\server\\lombok.jar\"",
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "python.analysis.completeFunctionParens": true,
+  "files.autoSave": "off",
+  "editor.cursorBlinking": "smooth",
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "go.toolsManagement.autoUpdate": true,
+  "git.autofetch": true,
+  "remote.SSH.remotePlatform": {
+    "20.219.112.235": "linux"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "vim.insertModeKeyBindings": [
+    { //exit insert mode
+      "before": [
+        "j",
+        "k"
+     ],
+     "after": [
+       "<Esc>"
+     ]
+  }
+],
+"git.confirmSync": false,
+"editor.lineNumbers": "relative",
+"workbench.colorTheme": "SynthWave '84",
+"vscode-neovim.neovimInitVimPaths.linux": "~/.config/nvim/init.vim",
+"workbench.iconTheme": "vscode-icons",
+"redhat.telemetry.enabled": false,
+"[csharp]": {
+  "editor.defaultFormatter": "ms-dotnettools.csharp"
+},
+"vim.useSystemClipboard": true,
+"[xml]": {
+  "editor.defaultFormatter": "fabianlauer.vs-code-xml-format"
+},
+"[javascriptreact]": {
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"boot-java.rewrite.reconcile": true,
+"[java]": {
+  "editor.defaultFormatter": "redhat.java"
+},
+"vscode-neovim.neovimInitVimPaths.win32": "C:\\Users\\Lenovo\\AppData\\Local\\nvim"
+}
