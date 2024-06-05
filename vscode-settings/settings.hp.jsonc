@@ -1,0 +1,231 @@
+{
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.fontFamily": "Cascadia Mono PL, Monospace",
+    "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'",
+    // "editor.fontLigatures": "'calt', 'ss01', 'ss02'",
+    "terminal.integrated.fontFamily": "Cascadia code",
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "emmet.includeLanguages": {
+      "jinja-html": "html",
+      "javascript": "javascriptreact",
+      "solidjs": "html"
+    },
+    "editor.defaultFormatter": "vscode.emmet",
+    "gitlens.hovers.currentLine.over": "line",
+    "redhat.telemetry.enabled": true,
+    "[xml]": {
+      "editor.defaultFormatter": "j69.ejs-beautify"
+    },
+    "js/ts.implicitProjectConfig.experimentalDecorators": true,
+    "[javascript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "editor.minimap.enabled": false,
+    "remote.SSH.remotePlatform": {
+      "ec2-35-154-81-135.ap-south-1.compute.amazonaws.com": "linux",
+      "rapidx-codegen-dev.centralindia.cloudapp.azure.com": "linux",
+      "balamurugan-dockerreact-981hudjo79a.vss.gitpod.io": "linux",
+      "mikenorth-typescriptcou-6u5mk1322mn.vss.gitpod.io": "linux",
+      "mikenorth-fullstackts-l0tvsrz5si9.vss.gitpod.io": "linux"
+    },
+    "editor.tabSize": 2,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "tailwindCSS.emmetCompletions": true,
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.showSuggestionsAsSnippets": true,
+    "git.confirmSync": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.tokenColorCustomizations": {
+      "textMateRules": [
+        {
+          "scope": [
+            //following will be in italic (=FlottFlott)
+            "comment",
+            "entity.name.type.class", //class names
+            "keyword", //import, export, return…
+            "constant", //String, Number, Boolean…, this, super
+            "storage.modifier", //static keyword
+            "storage.type.class.js" //class keyword
+          ],
+          "settings": {
+            "fontStyle": "italic"
+          }
+        },
+        {
+          "scope": [
+            //following will be excluded from italics (VSCode has some defaults for italics)
+            "invalid",
+            "keyword.operator",
+            "constant.numeric.css",
+            "keyword.other.unit.px.css",
+            "constant.numeric.decimal.js",
+            "constant.numeric.json"
+          ],
+          "settings": {
+            "fontStyle": ""
+          }
+        }
+      ]
+    },
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "never",
+      "source.fixAll.eslint": "never"
+    },
+    "editor.fontSize": 20,
+    "editor.fontWeight": "normal",
+    "todohighlight.keywords": [
+      "DEBUG:",
+      "REVIEW:",
+      {
+        "text": "NOTE:",
+        "color": "#ff0000",
+        "backgroundColor": "yellow",
+        "overviewRulerColor": "grey"
+      },
+      {
+        "text": "HACK:",
+        "color": "#000",
+        "isWholeLine": false
+      },
+      {
+        "text": "TODO:",
+        "color": "red",
+        "border": "1px solid red",
+        "borderRadius": "2px", //NOTE: using borderRadius along with `border` or you will see nothing change
+        "backgroundColor": "rgba(0,0,0,.2)"
+        //other styling properties goes here ...
+      }
+    ],
+    "eslint.debug": true,
+    "eslint.onIgnoredFiles": "warn",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "mdb.confirmRunAll": false,
+    "editor.cursorBlinking": "phase",
+    "[typescript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "vim.insertModeKeyBindings": [
+      {
+        "before": ["j", "k"],
+        "after": ["<Esc>"]
+      }
+    ],
+    "vim.useCtrlKeys": false,
+    "vim.useSystemClipboard": true,
+    "vim.camelCaseMotion.enable": true,
+    "workbench.colorCustomizations": {
+      "[Aurora X]": {
+        "editorLineNumber.activeForeground": "#78D4DE",
+        "editorLineNumber.foreground": "#78d4de68",
+        "breadcrumb.activeSelectionForeground": "#78D4DE",
+        "breadcrumb.foreground": "#78D4DE"
+      }
+    },
+    "editor.lineNumbers": "relative",
+    "vim.vimrc.path": "C:\\Users\\61387\\AppData\\Local\\nvim\\init.vim",
+    "azureFunctions.showCoreToolsWarning": false,
+    "[json]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[javascriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.editorAssociations": [
+      {
+        "viewType": "jupyter-notebook",
+        "filenamePattern": "*.ipynb"
+      }
+    ],
+    "jupyter.useNotebookEditor": true,
+    "editor.accessibilitySupport": "off",
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "vsicons.customIconFolderPath": "C:\\Users\\61387\\AppData\\Roaming\\Code\\User\\",
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "git.enableSmartCommit": true,
+    "extensions.autoCheckUpdates": false,
+    "extensions.autoUpdate": "onlySelectedExtensions",
+    "editor.quickSuggestionsDelay": 1,
+    "typescript.disableAutomaticTypeAcquisition": true,
+    "typescript.tsserver.log": "off",
+    "typescript.tsdk": "C:\\Users\\61387\\AppData\\Roaming\\npm\\node_modules\\typescript\\lib",
+    "workbench.iconTheme": "vscode-icons",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "typescript.suggest.completeFunctionCalls": true,
+    "typescript.tsserver.enableTracing": true,
+    "remote.SSH.defaultExtensions": ["gitpod.gitpod-remote-ssh"],
+    "editor.inlineSuggest.enabled": true,
+    "[gohtml]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "debug.disassemblyView.showSourceCode": false,
+    "terminal.integrated.fontSize": 18,
+    "[go]": {
+      "editor.defaultFormatter": "golang.go"
+    },
+    "workbench.colorTheme": "Andromeda",
+    "yaml.customTags": [
+      "!And",
+      "!And sequence",
+      "!If",
+      "!If sequence",
+      "!Not",
+      "!Not sequence",
+      "!Equals",
+      "!Equals sequence",
+      "!Or",
+      "!Or sequence",
+      "!FindInMap",
+      "!FindInMap sequence",
+      "!Base64",
+      "!Join",
+      "!Join sequence",
+      "!Cidr",
+      "!Ref",
+      "!Sub",
+      "!Sub sequence",
+      "!GetAtt",
+      "!GetAZs",
+      "!ImportValue",
+      "!ImportValue sequence",
+      "!Select",
+      "!Select sequence",
+      "!Split",
+      "!Split sequence"
+    ],
+    "files.associations": {
+      "*.html": "html"
+    },
+    "[css]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[java]": {
+      "editor.defaultFormatter": "redhat.java"
+    },
+    "editor.cursorStyle": "block",
+    "[python]": {
+      "editor.defaultFormatter": "ms-python.black-formatter",
+      "editor.formatOnSave": true
+    },
+    "window.zoomLevel": -1,
+    "vim.highlightedyank.enable": true,
+    "editor.inlineSuggest.suppressSuggestions": true,
+    "python.terminal.activateEnvironment": true,
+    "cody.autocomplete.enabled": false,
+    "cody.codeActions.enabled": false,
+    "cody.editorTitleCommandIcon": false,
+    "editor.formatOnSave": true,
+    "cloudcode.duetAI.project": "gemini-420910",
+    "editor.unicodeHighlight.allowedLocales": {
+      "es": true
+    }
+  }
+  
